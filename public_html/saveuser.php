@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -66,7 +66,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-6">
-							<?php include 'myscripts/testreg.php'; ?>
+							<?php include 'myscripts/save_user.php'; ?>
 						</div> <!-- end .col-sm-6 -->
 					</div> <!-- end .row -->
 				</div> <!-- end .container -->

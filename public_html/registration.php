@@ -61,12 +61,15 @@
 				</div> <!-- end .container -->
 			</div> <!-- end .navigation -->
 		</header> <!-- end .header -->
+		
+		<img src="images/registr.jpg" alt="alt text" class="img-responsive">
+		
 		<div class="section white">
 			<div class="inner">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-6">
-							<?php include 'myscripts/testreg.php'; ?>
+							<?php include 'myscripts/reg.php'; ?>
 						</div> <!-- end .col-sm-6 -->
 					</div> <!-- end .row -->
 				</div> <!-- end .container -->
