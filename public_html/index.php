@@ -13,7 +13,7 @@
     <!--****  testreg.php - это адрес обработчика. То есть, после нажатия на кнопку  "Войти", данные из полей отправятся на страничку testreg.php методом  "post" ***** -->
  <p>
     <label>Ваш логин:<br></label>
-    <input name="login" type="text" size="15" maxlength="15">
+    <input name="login" type="text" size="31" maxlength="31">
     </p>
 
 
@@ -22,7 +22,7 @@
     <p>
 
     <label>Ваш пароль:<br></label>
-    <input name="password" type="password" size="15" maxlength="15">
+    <input name="password" type="password" size="31" maxlength="31">
     </p>
 
     <!--**** В поле для паролей (name="password" type="password") пользователь вводит свой пароль ***** --> 
