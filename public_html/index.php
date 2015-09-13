@@ -132,7 +132,7 @@
 						<div class="specialty">
 							<div class="image">
 								<img src="images/specialty01.jpg" alt="alt text here" class="img-responsive">
-								<div class="overlay"><a href="" class="button white">See More</a></div>
+								<div class="overlay"><a href="city.php" class="button white">See More</a></div>
 							</div> <!-- end .image -->
 							<h5>Волгоград</h5>
 							<p>Всем известная скульптура «Родина-мать зовёт!», что возвышается на Мамаевом кургане, внесена в книгу рекордов Гиннеса в качестве самой большой статуи в мире.</p>
@@ -140,7 +140,7 @@
 						<div class="specialty">
 							<div class="image">
 								<img src="images/specialty02.jpg" alt="alt text here" class="img-responsive">
-								<div class="overlay"><a href="" class="button white">See More</a></div>
+								<div class="overlay"><a href="city.php" class="button white">See More</a></div>
 							</div> <!-- end .image -->
 							<h5>Санкт-петербург</h5>
 							<p>Архитектура Питера настолько разнообразна, что при строительстве Михайловского или инженерного замка пришлось делать все четыре фасада здания различными.</p>
@@ -148,15 +148,15 @@
 						<div class="specialty">
 							<div class="image">
 								<img src="images/specialty03.jpg" alt="alt text here" class="img-responsive">
-								<div class="overlay"><a href="" class="button white">See More</a></div>
+								<div class="overlay"><a href="city.php" class="button white">See More</a></div>
 							</div> <!-- end .image -->
 							<h5>Москва</h5>
-							<p>Не только сталица, но и важны туристический центр Росии. А международным деловым центром является район «Москва-Сити».</p>
+							<p>Не только столица, но и важны туристический центр Росии. А международным деловым центром является район «Москва-Сити».</p>
 						</div> <!-- end .specialty -->
 						<div class="specialty">
 							<div class="image">
 								<img src="images/specialty04.jpg" alt="alt text here" class="img-responsive">
-								<div class="overlay"><a href="" class="button white">See More</a></div>
+								<div class="overlay"><a href="city.php" class="button white">See More</a></div>
 							</div> <!-- end .image -->
 							<h5>Ульяновск</h5>
 							<p>Президенский мост является самым длинным мостов России и одним из самых длинных в Европе</p>
