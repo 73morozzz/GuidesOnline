@@ -40,7 +40,7 @@
 			<div class="top">
 				<div class="container">
 					<div class="left">
-						<span>ЯГид</span>
+						<span></span>
 					</div> <!-- end .left -->
 					<div class="right">
 						<span class="item"><?php include 'myscripts/head.php'; ?></span>
@@ -49,18 +49,21 @@
 			</div> <!-- end .top -->
 			<div class="navigation">
 				<div class="container clearfix">
-					<div class="logo"><a href="index.html"><img src="images/logo.png" alt="Cuisine" class="img-responsive"></a></div> <!-- end .logo -->
+					<div class="logo"><a href="index.php"><img src="images/logo-black.png" alt="Cuisine" class="img-responsive"></a></div> <!-- end .logo -->
 					<nav class="main-nav">
 						<ul class="list-unstyled">
-							<li><a href="index.html">Главная</a></li>
-							<li><a href="index.html">О нас</a></li>
-							<li><a href="index.html">Города</a></li>
+							<li><a href="index.php">Главная</a></li>
+							<li><a href="about.php">О нас</a></li>
+							<li><a href="city.php">Города</a></li>
 						</ul>
 					</nav> <!-- end .main-nav -->
 					<a href="" class="responsive-menu-open"><i class="fa fa-bars"></i></a>
 				</div> <!-- end .container -->
 			</div> <!-- end .navigation -->
 		</header> <!-- end .header -->
+		
+		<img src="images/login.jpg" alt="alt text" class="img-responsive">
+		
 		<div class="section white">
 			<div class="inner">
 				<div class="container">

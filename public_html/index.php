@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>Я - Гид</title>
 
 		<!-- Bootstrap -->
@@ -36,11 +38,11 @@
 			<a href="" class="responsive-menu-close"><i class="icon-close"></i></a>
 			<nav class="responsive-nav"></nav> <!-- end .responsive-nav -->
 		</div> <!-- end .responsive-menu -->
-		<header class="header">
+		<header class="header transparent">
 			<div class="top">
 				<div class="container">
 					<div class="left">
-						<span>ЯГид</span>
+						<span> </span>
 					</div> <!-- end .left -->
 					<div class="right">
 						<span class="item"><?php include 'myscripts/head.php'; ?></span>
@@ -49,12 +51,12 @@
 			</div> <!-- end .top -->
 			<div class="navigation">
 				<div class="container clearfix">
-					<div class="logo"><a href="index.html"><img src="images/logo.png" alt="Cuisine" class="img-responsive"></a></div> <!-- end .logo -->
+					<div class="logo"><a href="index.php"><img src="images/logo-white.png" alt="Cuisine" class="img-responsive"></a></div> <!-- end .logo -->
 					<nav class="main-nav">
 						<ul class="list-unstyled">
-							<li><a href="index.html">Главная</a></li>
-							<li><a href="index.html">О нас</a></li>
-							<li><a href="index.html">Города</a></li>
+							<li><a href="index.php">Главная</a></li>
+							<li><a href="about.php">О нас</a></li>
+							<li><a href="city.php">Города</a></li>
 						</ul>
 					</nav> <!-- end .main-nav -->
 					<a href="" class="responsive-menu-open"><i class="fa fa-bars"></i></a>
@@ -62,29 +64,56 @@
 			</div> <!-- end .navigation -->
 		</header> <!-- end .header -->
 
-		<div class="page-title" style="background-image: url('images/background01.jpg');">
-			<div class="inner">
-				<div class="container">
-					<div class="row aligned-cols">
-						<div class="col-sm-3 aligned-middle">
-							<h2>About Us</h2>
-						</div> <!-- end .col-sm-3 -->
-						<div class="col-sm-9">
-							<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam uptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</p>
-						</div> <!-- end .col-sm-9 -->
-					</div> <!-- end .row -->
-				</div> <!-- end .container -->
-			</div> <!-- end .inner -->
-		</div> <!-- end .page-title -->
+		<div id="welcome-slider" class="welcome-slider flex-slider">
+			<div class="slides clearfix">
+				<div class="slide" style="background-image: url('images/background01.jpg');">
+					<div class="inner">
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-6">
+									<h1>Путешествуй. Живи. Мечтай.</h1>
+									<p class="button-list"><a href="login.php" class="button light">Войти</a><a href="registration.php" class="button brown solid">Зарегистрироваться</a></p>
+								</div> <!-- end .col-sm-6 -->
+							</div> <!-- end .row -->
+						</div> <!-- end .container -->
+					</div> <!-- end .inner -->
+				</div> <!-- end .slide -->
+				<div class="slide" style="background-image: url('images/background001.jpg');">
+					<div class="inner">
+						<div class="container">
+							<div class="row aligned-cols">
+								<div class="col-sm-6 aligned-middle">
+									<h1>Открывай для себя новое. </h1>
+									<p class="button-list"><a href="login.php" class="button light">Войти</a><a href="registration.php" class="button brown solid">Зарегистрироваться</a></p>
+								</div> <!-- end .col-sm-6 -->
+								<div class="col-sm-6 text-right">
+									<!---<div class="hours-box">
+										<div class="title">Open Hours<span class="open">Open</span></div>
+										<div class="clearfix"><span class="day">Monday</span><span class="hours">09 - 21</span></div>
+										<div class="clearfix"><span class="day">Tuesday</span><span class="hours">09 - 21</span></div>
+										<div class="clearfix"><span class="day">Wednesday</span><span class="hours">07 - 21</span></div>
+										<div class="clearfix"><span class="day">THursday</span><span class="hours">07 - 21</span></div>
+										<div class="clearfix"><span class="day">Friday</span><span class="hours">07 - 21</span></div>
+										<div class="clearfix"><span class="day">Saturday</span><span class="hours">07 - 21</span></div>
+										<div class="clearfix"><span class="day">Sundays</span><span class="hours">Closed</span></div> -->
+										<!--<div class="info">Info: 00 2345 6780</div> -->
+									</div> <!-- end .hours-box -->
+								</div> <!-- end .col-sm-6 -->
+							</div> <!-- end .row -->
+						</div> <!-- end .container -->
+					</div> <!-- end .inner -->
+				</div> <!-- end .slide -->
+			</div> <!-- end .slides -->
+		</div> <!-- end .welcome-slider -->
 
 		<div class="section white">
 			<div class="inner">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-6">
-							<h2><small>We are Taste Cuisine</small>Our Mission is to satisfy</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras efficitur, risus nec scelerisque volutpat, sem tellus ornare nibh, fringilla aliquam orci ligula ac leo. Sed ut porta nunc. Donec eget commodo nulla, id porttitor libero. Vivamus varius lacinia lectus, laoreet semper felis tincidunt ac.</p>
-							<p>Aliquam fermentum posuere leo a rutrum. Donec consequat massa diam, id mollis metus pulvinar id. Sed vel tellus elementum, volutpat nisl in, rutrum mauris. Aliquam nec mi eget eros auctor finibus eu a nunc.</p>
+							<h2><small>Забудь о страхе перед открытиями</small>Расширяй свои рамки</h2>
+							<p>Все города мира ждут твоего визита, тебе остается лишь найти своего Гида, который проведет по всем улочкам города и расскажет о истории и легендах этого места</p>
+							<p>Забудь о нудных эксукрсиям и толпах туристов, о патраченных денегах и часах. Каждый человек, который зарегистрировался, может примерить на себе роль экскурсовода по джунглям совего города или же напротив выступить в роли отркывателя новой локации</p>
 						</div> <!-- end .col-sm-6 -->
 						<div class="col-sm-6">
 							<img src="images/mission.jpg" alt="alt text here" class="img-responsive">
@@ -94,84 +123,217 @@
 			</div> <!-- end .inner -->
 		</div> <!-- end .section -->
 
-		<div class="section no-padding">
+		<div class="section white">
+			<div class="partial-background" style="background-image: url('images/background04.jpg');"></div>
 			<div class="inner">
-				<div id="gallery" class="gallery">
-					<div class="gallery-sizer"></div>
-					<div class="item">
-						<img src="images/gallery01.jpg" alt="alt text" class="img-responsive">
-						<div class="overlay"><a href="images/gallery01.jpg" class="button white" data-lightbox-gallery="gallery1">View</a></div>
-					</div> <!-- end .item -->
-					<div class="item">
-						<img src="images/gallery02.jpg" alt="alt text" class="img-responsive">
-						<div class="overlay"><a href="images/gallery02.jpg" class="button white" data-lightbox-gallery="gallery1">View</a></div>
-					</div> <!-- end .item -->
-					<div class="item">
-						<img src="images/gallery03.jpg" alt="alt text" class="img-responsive">
-						<div class="overlay"><a href="images/gallery03.jpg" class="button white" data-lightbox-gallery="gallery1">View</a></div>
-					</div> <!-- end .item -->
-					<div class="item">
-						<img src="images/gallery04.jpg" alt="alt text" class="img-responsive">
-						<div class="overlay"><a href="images/gallery04.jpg" class="button white" data-lightbox-gallery="gallery1">View</a></div>
-					</div> <!-- end .item -->
-					<div class="item">
-						<img src="images/gallery05.jpg" alt="alt text" class="img-responsive">
-						<div class="overlay"><a href="images/gallery05.jpg" class="button white" data-lightbox-gallery="gallery1">View</a></div>
-					</div> <!-- end .item -->
-					<div class="item">
-						<img src="images/gallery06.jpg" alt="alt text" class="img-responsive">
-						<div class="overlay"><a href="images/gallery06.jpg" class="button white" data-lightbox-gallery="gallery1">View</a></div>
-					</div> <!-- end .item -->
-					<div class="item">
-						<img src="images/gallery07.jpg" alt="alt text" class="img-responsive">
-						<div class="overlay"><a href="images/gallery07.jpg" class="button white" data-lightbox-gallery="gallery1">View</a></div>
-					</div> <!-- end .item -->
-					<div class="item">
-						<img src="images/gallery08.jpg" alt="alt text" class="img-responsive">
-						<div class="overlay"><a href="images/gallery08.jpg" class="button white" data-lightbox-gallery="gallery1">View</a></div>
-					</div> <!-- end .item -->
-					<div class="item">
-						<img src="images/gallery09.jpg" alt="alt text" class="img-responsive">
-						<div class="overlay"><a href="images/gallery09.jpg" class="button white" data-lightbox-gallery="gallery1">View</a></div>
-					</div> <!-- end .item -->
-					<div class="item">
-						<img src="images/gallery10.jpg" alt="alt text" class="img-responsive">
-						<div class="overlay"><a href="images/gallery10.jpg" class="button white" data-lightbox-gallery="gallery1">View</a></div>
-					</div> <!-- end .item -->
-					<div class="item">
-						<img src="images/gallery11.jpg" alt="alt text" class="img-responsive">
-						<div class="overlay"><a href="images/gallery11.jpg" class="button white" data-lightbox-gallery="gallery1">View</a></div>
-					</div> <!-- end .item -->
-					<div class="item">
-						<img src="images/gallery01.jpg" alt="alt text" class="img-responsive">
-						<div class="overlay"><a href="images/gallery01.jpg" class="button white" data-lightbox-gallery="gallery1">View</a></div>
-					</div> <!-- end .item -->
-				</div> <!-- end .gallery -->
+				<div class="container">
+					<h2 class="text-center white">Места<small>Нади своего гида</small></h2>
+					<div class="specialties-slider">
+						<div class="specialty">
+							<div class="image">
+								<img src="images/specialty01.jpg" alt="alt text here" class="img-responsive">
+								<div class="overlay"><a href="" class="button white">See More</a></div>
+							</div> <!-- end .image -->
+							<h5>Волгоград</h5>
+							<p>Всем известная скульптура «Родина-мать зовёт!», что возвышается на Мамаевом кургане, внесена в книгу рекордов Гиннеса в качестве самой большой статуи в мире.</p>
+						</div> <!-- end .specialty -->
+						<div class="specialty">
+							<div class="image">
+								<img src="images/specialty02.jpg" alt="alt text here" class="img-responsive">
+								<div class="overlay"><a href="" class="button white">See More</a></div>
+							</div> <!-- end .image -->
+							<h5>Санкт-петербург</h5>
+							<p>Архитектура Питера настолько разнообразна, что при строительстве Михайловского или инженерного замка пришлось делать все четыре фасада здания различными.</p>
+						</div> <!-- end .specialty -->
+						<div class="specialty">
+							<div class="image">
+								<img src="images/specialty03.jpg" alt="alt text here" class="img-responsive">
+								<div class="overlay"><a href="" class="button white">See More</a></div>
+							</div> <!-- end .image -->
+							<h5>Москва</h5>
+							<p>Не только сталица, но и важны туристический центр Росии. А международным деловым центром является район «Москва-Сити».</p>
+						</div> <!-- end .specialty -->
+						<div class="specialty">
+							<div class="image">
+								<img src="images/specialty04.jpg" alt="alt text here" class="img-responsive">
+								<div class="overlay"><a href="" class="button white">See More</a></div>
+							</div> <!-- end .image -->
+							<h5>Ульяновск</h5>
+							<p>Президенский мост является самым длинным мостов России и одним из самых длинных в Европе</p>
+						</div> <!-- end .specialty -->
+					</div> <!-- end .specialty-slider -->
+				</div> <!-- end .container -->
 			</div> <!-- end .inner -->
 		</div> <!-- end .section -->
 
-		<div class="section white">
+	<!--	<div class="section white border-top">
+			<div class="inner">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-3">
+							<h2>From menu</h2>
+							<p>Lorem ipsum dolor sit amet, consetetur sadi erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.</p>
+							<p>No sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, conset.</p>
+							<a href="" class="button">Full Menu</a>
+						</div> <!-- end .col-sm-3 -->
+					<!--	<div class="column-spacer"></div>
+					<!--	<div class="col-sm-9">
+							<div class="row">
+								<div class="col-sm-4">
+									<div class="menu clearfix">
+										<span class="price">$54</span>
+										<h5>Roasted Turbot</h5>
+										<p>Speck Ham, Savoy Cabbage, Fall Vegetables Caramelized Salsify, Ommegang Beer Jus.</p>
+									</div> <!-- end .menu -->
+								</div> <!-- end .col-sm-4 -->
+								<div class="col-sm-4">
+									<div class="menu clearfix">
+										<span class="price">$12</span>
+										<h5>Ice Cream</h5>
+										<p>Smashed honeycomb, Crushed nuts & seeds, Seasonal fruits, Butterscotch sauce.</p>
+									</div> <!-- end .menu -->
+								</div> <!-- end .col-sm-4 -->
+								<div class="col-sm-4">
+									<div class="menu clearfix">
+										<span class="price">$31</span>
+										<h5>Huckleberry Limenade</h5>
+										<p>Satisfy your sweet and sour cravings with combination of grenadine, lime and Sierra.</p>
+									</div> <!-- end .menu -->
+								</div> <!-- end .col-sm-4 -->
+								<div class="col-sm-4">
+									<div class="menu clearfix">
+										<span class="price">$38</span>
+										<h5>Baked Ravioli</h5>
+										<p>Jumbo cheese-stuffed ravioli tossed in a light tomato cream sauce w/ baby spinach.</p>
+									</div> <!-- end .menu -->
+								</div> <!-- end .col-sm-4 -->
+								<div class="col-sm-4">
+									<div class="menu clearfix">
+										<span class="price">$56</span>
+										<h5>Ruban Rouge<span class="label green">New</span></h5>
+										<p>Clementine Mousseline, Gingerbread Sablé Quince-Vodka Sorbet.</p>
+									</div> <!-- end .menu -->
+								</div> <!-- end .col-sm-4 -->
+								<div class="col-sm-4">
+									<div class="menu clearfix">
+										<span class="price">$73</span>
+										<h5>Angry Ball</h5>
+										<p>A devilish blend of Fireball Cinnamon Whisky and Angry Orchard Apple Cider.</p>
+									</div> <!-- end .menu -->
+								</div> <!-- end .col-sm-4 -->
+								<div class="col-sm-4">
+									<div class="menu clearfix">
+										<span class="price">$19</span>
+										<h5>Italian Lobster</h5>
+										<p>Half a marinated & roasted lobster with silky Parmesan sauce & spaghetti modoro.</p>
+									</div> <!-- end .menu -->
+								</div> <!-- end .col-sm-4 -->
+								<div class="col-sm-4">
+									<div class="menu clearfix">
+										<span class="price">$12</span>
+										<h5>Ice Cream</h5>
+										<p>Smashed honeycomb, Crushed nuts & seeds, Seasonal fruits, Butterscotch sauce.</p>
+									</div> <!-- end .menu -->
+								</div> <!-- end .col-sm-4 -->
+								<div class="col-sm-4">
+									<div class="menu clearfix">
+										<span class="price">$62</span>
+										<h5>Double Grape Martini</h5>
+										<p>Hendrick's gin, grapes, cucumber, fresh and pressed apple & lemon juice.</p>
+									</div> <!-- end .menu -->
+								</div> <!-- end .col-sm-4 -->
+							</div> <!-- end .row -->
+						</div> <!-- end .col-sm-9 -->
+					</div> <!-- end .row -->
+				</div> <!-- end .container -->
+			</div> <!-- end .inner -->
+		</div> <!-- end .section -->
+
+		<div class="section large dark transparent parallax" style="background-image: url('images/background03.jpg');">
 			<div class="inner">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-6">
-							<h3><span class="highlight">01.</span> Extravagance</h3>
-							<p>Former main chef at a famous Michelin Star restaurant Le Cordon Bleu. Winner of various prestige contests in San Marino. Former main chef at a famous Michelin Star restaurant Le Cordon Bleu. Winner of various prestige contests in San Marino.</p>
+							<h2>Все краски мира откроются перед тобой, тебе осталось только выбрать свой маршрут</h2>
+							<a href="" class="link-button">Сделай это</a>
+						</div> <!-- end .col-sm-6 -->
+					</div> <!-- end .row -->
+				</div> <!-- end .container -->
+			</div> <!-- end .inner -->
+		</div> <!-- end .section -->
+
+	<!--	<div class="section white">
+			<div class="inner">
+				<div class="container">
+					<h2 class="text-center">Our Cooks<small>Finest In Town</small></h2>
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="cook">
+								<div class="image">
+									<img src="images/cook1.jpg" alt="alt text here" class="img-responsive">
+									<div class="overlay"><a href="" class="button white">Full Profile</a></div>
+								</div> <!-- end .image -->
+								<!--<h5>Helene O'Connor</h5>
+								<p>Former main chef at a famous Michelin Star restaurant Le Cordon Bleu. Winner of various prestige contests in San Marino.</p>
+							</div> <!-- end .cook -->
+						<!--</div> <!-- end .col-sm-3 -->
+					<!--	<div class="col-sm-3">
+							<div class="cook">
+								<div class="image">
+									<img src="images/cook2.jpg" alt="alt text here" class="img-responsive">
+									<div class="overlay"><a href="" class="button white">Full Profile</a></div>
+								</div> <!-- end .image -->
+								<!--<h5>Julian Posadowski</h5>
+								<p>He has been working in the restaurant from the day one. Passionate about the preparation and a perfectionist.</p>
+							</div> <!-- end .cook -->
+						</div> <!-- end .col-sm-3 -->
+					<!--	<div class="col-sm-3">
+							<div class="cook">
+								<div class="image">
+									<img src="images/cook3.jpg" alt="alt text here" class="img-responsive">
+									<div class="overlay"><a href="" class="button white">Full Profile</a></div>
+								</div> <!-- end .image -->
+								<!--<h5>Alexander Vytlan</h5>
+								<p>Not a real chef. He is actually an Envato graphic designer, but loves his way around the kitchen so why don’t make him famous?</p>
+							</div> <!-- end .cook -->
+					<!--	</div> <!-- end .col-sm-3 -->
+						<!--<div class="col-sm-3">
+							<div class="cook">
+								<div class="image">
+									<img src="images/cook4.jpg" alt="alt text here" class="img-responsive">
+									<div class="overlay"><a href="" class="button white">Full Profile</a></div>
+								</div> <!-- end .image -->
+							<!--	<h5>Catrin Nilsson</h5>
+								<p>Arguably the best cook when we talk pizza. Yep, she is the boss. Knows how to make Spaghetti Bolognese as well.</p>
+							</div> <!-- end .cook -->
+						</div> <!-- end .col-sm-3 -->
+					</div> <!-- end .row -->
+				</div> <!-- end .container -->
+			</div> <!-- end .inner -->
+		</div> <!-- end .section -->
+
+		<div class="section white border-top">
+			<div class="inner">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6">
+							<h3><span class="highlight">01.</span> Путешествуй больше</h3>
+							<p>Мы хотим вам помочь узнать мир, мир который лежит за вашим порогом. Просто выберите гида.</p>
 						</div> <!-- end .col-sm-6 -->
 						<div class="col-sm-6">
-							<h3><span class="highlight">02.</span> Eminence</h3>
-							<p>Former main chef at a famous Michelin Star restaurant Le Cordon Bleu. Winner of various prestige contests in San Marino. Former main chef at a famous Michelin Star restaurant Le Cordon Bleu. Winner of various prestige contests in San Marino.</p>
+							<h3><span class="highlight">02.</span> Путешествие начинается сейчас</h3>
+							<p>Выберите город и понравившего гида. Новый год - это прежде всего люди. Узнавайте людей, улочки и обычаи с человеком, который не по наслышке знает об истории и интересных фактах этого места </p>
 						</div> <!-- end .col-sm-6 -->
 					</div> <!-- end .row -->
 					<div class="spacer"></div>
 					<div class="row">
 						<div class="col-sm-6">
-							<h3><span class="highlight">03.</span> Perfection</h3>
-							<p>Former main chef at a famous Michelin Star restaurant Le Cordon Bleu. Winner of various prestige contests in San Marino. Former main chef at a famous Michelin Star restaurant Le Cordon Bleu. Winner of various prestige contests in San Marino.</p>
+							<h3><span class="highlight">03.</span> Я Ваш Гид</h3>
+							<p>Будте гидом, расскажите, что знаете, чем живете и какое место на ваш взгляд является неотъемлимой частью этого города, взамен получите новые знакомства и интересные подарки, за которые вы можете провести экскурсию. </p>
 						</div> <!-- end .col-sm-6 -->
 						<div class="col-sm-6">
-							<h3><span class="highlight">04.</span> Prestige</h3>
-							<p>Former main chef at a famous Michelin Star restaurant Le Cordon Bleu. Winner of various prestige contests in San Marino. Former main chef at a famous Michelin Star restaurant Le Cordon Bleu. Winner of various prestige contests in San Marino.</p>
+							<h3><span class="highlight">04.</span> Экскурсия = сувенир</h3>
+							<p>Любой труд должен оплачиваться. Люди, которые посвещают вам время, вкладывают в вас частичку истории своей родины, своей души. Взамен на экскурсию, вы можете поблагодарить своего спутника приятным сувениром из своего места проживания</p>
 						</div> <!-- end .col-sm-6 -->
 					</div> <!-- end .row -->
 				</div> <!-- end .container -->
@@ -182,7 +344,7 @@
 			<div class="inner">
 				<div class="container">
 					<div class="call-to-action">
-						<h3>Ready to make a reservation?</h3>
+						<h3>Готовы к путешествиям?</h3>
 						<a href="" class="button solid brown">Book a Table</a>
 					</div> <!-- end .call-to-action -->
 				</div> <!-- end .container -->
