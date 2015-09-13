@@ -29,13 +29,13 @@
     <!--**** В поле для паролей (name="password" type="password") пользователь вводит свой пароль ***** --> 
 
     <p>
-    <input type="submit" name="submit" value="Войти">
+    <input type="submit" name="submit" value="Войти" class="button light">
 
     <!--**** Кнопочка (type="submit") отправляет данные на страничку testreg.php ***** --> 
 
-<br>
+<br><br>
  <!--**** ссылка на регистрацию, ведь как-то же должны гости туда попадать ***** --> 
-<a href="registration.php">Зарегистрироваться</a> 
+<a href="registration.php" class="button brown solid">Зарегистрироваться</a> 
  
 	</p></form>
     <br>

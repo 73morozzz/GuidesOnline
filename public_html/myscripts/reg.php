@@ -37,7 +37,7 @@
 </p>
 
 <p>
-    <input type="submit" name="submit" value="Зарегистрироваться">
+    <input type="submit" name="submit" value="Зарегистрироваться" class="button brown solid">
 <!--**** Кнопочка (type="submit") отправляет данные на страничку save_user.php ***** --> 
 </p></form>
     </body>

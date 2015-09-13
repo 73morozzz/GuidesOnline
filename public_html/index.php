@@ -345,7 +345,7 @@
 				<div class="container">
 					<div class="call-to-action">
 						<h3>Готовы к путешествиям?</h3>
-						<a href="" class="button solid brown">Book a Table</a>
+						<a href="city.php" class="button solid brown">ДА</a>
 					</div> <!-- end .call-to-action -->
 				</div> <!-- end .container -->
 			</div> <!-- end .inner -->
