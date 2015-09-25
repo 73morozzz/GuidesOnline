@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 	<head>
+		<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="anchor.js"></script>
+		<script type="text/javascript" src="anchor.init.js"></script>
 
-		<meta charset="utf-8">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Cuisine - Restaurant HTML Template</title>
+		<title>Я - Гид</title>
 
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -42,7 +45,7 @@
 			<div class="top">
 				<div class="container">
 					<div class="left">
-						<span>Welcome to our Restaurant</span>
+						<span></span>
 					</div> <!-- end .left -->
 					<div class="right">
 						<span class="item"><a href="tel:0012345678">00 1234 5678</a></span>
@@ -104,10 +107,10 @@
 				<div class="container">
 					<div class="row aligned-cols">
 						<div class="col-sm-3 aligned-middle">
-							<h2>Food on demand</h2>
+							<h2>Наши города</h2>
 						</div> <!-- end .col-sm-3 -->
 						<div class="col-sm-9">
-							<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam uptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</p>
+							<p><section id="section1"> <h3>Первая секция</h3><p><a href="#section2">Город сказка</a></p></section></p>
 						</div> <!-- end .col-sm-9 -->
 					</div> <!-- end .row -->
 				</div> <!-- end .container -->
@@ -118,7 +121,7 @@
 			<div class="inner">
 				<div class="container">
 					<div class="shop-top clearfix">
-						<span class="shop-count">126 Products In Our Restaurant</span>
+						<span class="shop-count"><section id="section2"><h3></h3><p><a href="#section3">Город мечта</a></p></section></span>
 						<span class="shop-sort">
 							Sort By:
 							<select>
@@ -128,124 +131,124 @@
 							</select>
 						</span>
 					</div> <!-- end .shop-top -->
-					<div class="row">
+					<!--<div class="row">
 						<div class="col-sm-3">
 							<div class="product">
 								<div class="image">
 									<img src="images/recipe1.jpg" alt="alt text here" class="img-responsive">
 									<div class="overlay"><a href="" class="button white">View More</a></div>
 								</div> <!-- end .image -->
-								<h5>Tasty Breakfast<span class="price">$8</span></h5>
+								<!--<h5>Tasty Breakfast<span class="price">$8</span></h5>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies vel lectus vitae blandit. Cras in leo pos tempor.</p>
 							</div> <!-- end .specialty -->
-						</div> <!-- end .col-sm-3 -->
-						<div class="col-sm-3">
+						<!--</div> <!-- end .col-sm-3 -->
+						<!--<div class="col-sm-3">
 							<div class="product">
 								<div class="image">
 									<img src="images/recipe2.jpg" alt="alt text here" class="img-responsive">
 									<div class="overlay"><a href="" class="button white">View More</a></div>
 								</div> <!-- end .image -->
-								<h5>Blueberry Toast<span class="price">$25</span></h5>
+								<!--<h5>Blueberry Toast<span class="price">$25</span></h5>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies vel lectus vitae blandit. Cras in leo pos tempor.</p>
 							</div> <!-- end .specialty -->
 						</div> <!-- end .col-sm-3 -->
-						<div class="col-sm-3">
+						<!--<div class="col-sm-3">
 							<div class="product">
 								<div class="image">
 									<img src="images/recipe3.jpg" alt="alt text here" class="img-responsive">
 									<div class="overlay"><a href="" class="button white">View More</a></div>
 								</div> <!-- end .image -->
-								<h5>Healthy Steak<span class="price">$31</span></h5>
+								<!--<h5>Healthy Steak<span class="price">$31</span></h5>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies vel lectus vitae blandit. Cras in leo pos tempor.</p>
 							</div> <!-- end .specialty -->
 						</div> <!-- end .col-sm-3 -->
-						<div class="col-sm-3">
+						<!--<div class="col-sm-3">
 							<div class="product">
 								<div class="image">
 									<img src="images/recipe4.jpg" alt="alt text here" class="img-responsive">
 									<div class="overlay"><a href="" class="button white">View More</a></div>
 								</div> <!-- end .image -->
-								<h5>Greeny Salad<span class="price">$15</span></h5>
+								<!--<h5>Greeny Salad<span class="price">$15</span></h5>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies vel lectus vitae blandit. Cras in leo pos tempor.</p>
 							</div> <!-- end .specialty -->
 						</div> <!-- end .col-sm-3 -->
-						<div class="col-sm-3">
+						<!--<div class="col-sm-3">
 							<div class="product">
 								<div class="image">
 									<img src="images/recipe5.jpg" alt="alt text here" class="img-responsive">
 									<div class="overlay"><a href="" class="button white">View More</a></div>
 								</div> <!-- end .image -->
-								<h5>Creamy Desert<span class="price">$29</span></h5>
+							<!--	<h5>Creamy Desert<span class="price">$29</span></h5>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies vel lectus vitae blandit. Cras in leo pos tempor.</p>
 							</div> <!-- end .specialty -->
 						</div> <!-- end .col-sm-3 -->
-						<div class="col-sm-3">
+						<!--<div class="col-sm-3">
 							<div class="product">
 								<div class="image">
 									<img src="images/recipe4.jpg" alt="alt text here" class="img-responsive">
 									<div class="overlay"><a href="" class="button white">View More</a></div>
 								</div> <!-- end .image -->
-								<h5>Greeny Salad<span class="price">$15</span></h5>
+							<!--	<h5>Greeny Salad<span class="price">$15</span></h5>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies vel lectus vitae blandit. Cras in leo pos tempor.</p>
 							</div> <!-- end .specialty -->
 						</div> <!-- end .col-sm-3 -->
 						<div class="col-sm-3">
-							<div class="product">
+							<!--<div class="product">
 								<div class="image">
 									<img src="images/recipe6.jpg" alt="alt text here" class="img-responsive">
 									<div class="overlay"><a href="" class="button white">View More</a></div>
 								</div> <!-- end .image -->
-								<h5>Tasty Chicken<span class="price">$31</span></h5>
+							<!--	<h5>Tasty Chicken<span class="price">$31</span></h5>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies vel lectus vitae blandit. Cras in leo pos tempor.</p>
 							</div> <!-- end .specialty -->
 						</div> <!-- end .col-sm-3 -->
 						<div class="col-sm-3">
-							<div class="product">
-								<div class="image">
+							<!--<div class="product">
+							<!--	<div class="image">
 									<img src="images/recipe1.jpg" alt="alt text here" class="img-responsive">
 									<div class="overlay"><a href="" class="button white">View More</a></div>
 								</div> <!-- end .image -->
-								<h5>Tasty Breakfast<span class="price">$8</span></h5>
+							<!--	<h5>Tasty Breakfast<span class="price">$8</span></h5>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies vel lectus vitae blandit. Cras in leo pos tempor.</p>
 							</div> <!-- end .specialty -->
 						</div> <!-- end .col-sm-3 -->
 						<div class="col-sm-3">
 							<div class="product">
-								<div class="image">
-									<img src="images/recipe1.jpg" alt="alt text here" class="img-responsive">
-									<div class="overlay"><a href="" class="button white">View More</a></div>
+							<!--	<div class="image">
+							<!--v		<img src="images/recipe1.jpg" alt="alt text here" class="img-responsive">
+							<!--		<div class="overlay"><a href="" class="button white">View More</a></div>
 								</div> <!-- end .image -->
-								<h5>Tasty Breakfast<span class="price">$8</span></h5>
+							<!--	<h5>Tasty Breakfast<span class="price">$8</span></h5>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies vel lectus vitae blandit. Cras in leo pos tempor.</p>
 							</div> <!-- end .specialty -->
 						</div> <!-- end .col-sm-3 -->
 						<div class="col-sm-3">
-							<div class="product">
+						<!--	<div class="product">
 								<div class="image">
 									<img src="images/recipe2.jpg" alt="alt text here" class="img-responsive">
 									<div class="overlay"><a href="" class="button white">View More</a></div>
 								</div> <!-- end .image -->
-								<h5>Blueberry Toast<span class="price">$25</span></h5>
+							<!--	<h5>Blueberry Toast<span class="price">$25</span></h5>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies vel lectus vitae blandit. Cras in leo pos tempor.</p>
 							</div> <!-- end .specialty -->
 						</div> <!-- end .col-sm-3 -->
 						<div class="col-sm-3">
 							<div class="product">
-								<div class="image">
+						<!--		<div class="image">
 									<img src="images/recipe3.jpg" alt="alt text here" class="img-responsive">
 									<div class="overlay"><a href="" class="button white">View More</a></div>
 								</div> <!-- end .image -->
-								<h5>Healthy Steak<span class="price">$31</span></h5>
+							<!--	<h5>Healthy Steak<span class="price">$31</span></h5>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies vel lectus vitae blandit. Cras in leo pos tempor.</p>
 							</div> <!-- end .specialty -->
 						</div> <!-- end .col-sm-3 -->
 						<div class="col-sm-3">
-							<div class="product">
+						<!--	<div class="product">
 								<div class="image">
 									<img src="images/recipe4.jpg" alt="alt text here" class="img-responsive">
 									<div class="overlay"><a href="" class="button white">View More</a></div>
 								</div> <!-- end .image -->
-								<h5>Greeny Salad<span class="price">$15</span></h5>
+							<!--	<h5>Greeny Salad<span class="price">$15</span></h5>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies vel lectus vitae blandit. Cras in leo pos tempor.</p>
 							</div> <!-- end .specialty -->
 						</div> <!-- end .col-sm-3 -->
