@@ -1,14 +1,10 @@
-﻿<?php
+﻿
+<?php
     //  вся процедура работает на сессиях. Именно в ней хранятся данные  пользователя, пока он находится на сайте. Очень важно запустить их в  самом начале странички!!!
     session_start();
     ?>
-    <html>
-    <head>
-	
-    </head>
-    <body>
     <h2>Войти</h2>
-    <form action="testreg.php" method="post">
+    <form action="/login/test" method="post">
 
     <!--****  testreg.php - это адрес обработчика. То есть, после нажатия на кнопку  "Войти", данные из полей отправятся на страничку testreg.php методом  "post" ***** -->
  
@@ -35,7 +31,7 @@
 
 <br><br>
  <!--**** ссылка на регистрацию, ведь как-то же должны гости туда попадать ***** --> 
-<a href="registration.php" class="button brown solid">Зарегистрироваться</a> 
+<a href="/registration" class="button brown solid">Зарегистрироваться</a> 
  
 	</p></form>
     <br>
@@ -51,6 +47,4 @@
     echo "Вы    вошли на сайт, как $_SESSION[login] (<a    href='myscripts/exit.php'>выход</a>)<br>";
       
     }
-    ?>
-    </body>
-    </html>
+?>

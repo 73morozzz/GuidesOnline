@@ -1,0 +1,48 @@
+﻿<html>
+    <head>
+	<link href="style.css" rel="stylesheet">
+      <script rel=stylesheet" type="text/css" type='text/javascript'> function CityChange()
+{
+$("#adress").html($("#city_"+$("#city").options[this.selectedIndex].value).html())
+}</script>
+       <script type='text/javascript' >function CityChange()
+{
+document.getElementById('adress').innerHTML = document.getElementById(document.getElementById('city').value).innerHTML
+}</script>
+        <title>Sity</title>
+        
+    </head>
+    <body>
+        <SELECT id="city" onChange="CityChange()">
+        <option value="select">Выберете город</option>
+    <OPTION value="city_1">Москва</option>
+    <OPTION value="city_2">Пенза</option>
+    <OPTION value="city_3">Саратов</option>
+	<OPTION value="city_4">Самара</option>
+	<OPTION value="city_5">Ульяновск</option>
+	<OPTION value="city_6">Санкт-петербург</option>
+	<OPTION value="city_7">Волгоград</option>
+	
+</SELECT>
+
+	 <div id="city_1"style="display:none;"> <div  class="center">Москва - Не только столица, но и важный туристический центр России. А международным деловым центром является “Москва-сити”.</div> </div>
+
+ 
+
+   <!--<DIV id="city_1" style="display: none" style="text-align: center;" >Не только сталица, но и важны туристический центр Росии. А международным деловым центром является район «Москва-Сити»</BR>г. Москва, Краснопресненская набережная, 2</DIV>-->
+<div id="city_2"style="display:none;"> <div  class="center">Cамое живописное место в Пензе - это ее набережная, являющаяся одной из достопримечательностей города.Любимый место отдыха местных жителей, место встречь и место праздничных гуляний</div></div>
+<div id="city_3"style="display:none;"> <div  class="center">В знаменитом Саратовском аквапарке действует настоящий подводный вулкан, и не в каждом городе на территории России вы сможете принять турецкую эвкалиптовую сауну</div></div> 
+<div id="city_4"style="display:none;"> <div  class="center">Пожалуй, Самара может похвастаться не только надземными посторойками, такими, как набережная, на которой растут пальмы или самым высоким автовокзалом в Европе, но и подземными: бункером Сталина, бункером Калинина, бункером Связи...вобщем подземная жизнь в Самаре бьет ключом!</div></div> 
+<div id="city_5"style="display:none;"> <div  class="center">Ульяновск - Президентский мост является самым длинным мостом России и одним из самых длинных мостов в Европе.
+</div></div> 
+<div id="city_6"style="display:none;"> <div  class="center">Архитектура Питера настолько разнообразна, что при строительстве Михайловского или инженерного замка пришлось делать все четыре фасада здания различными
+</div></div>
+<div id="city_7"style="display:none;"> <div  class="center">Всем известная скульптура «Родина-мать зовёт!», что возвышается на Мамаевом кургане, внесена в книгу рекордов Гиннеса в качестве самой большой статуи в мире
+</div></div>
+<div style="text-align: center;">
+
+</div>
+   <DIV id="adress"></DIV>
+   
+    </body>
+</html>
